@@ -22,19 +22,20 @@ const SPECIALTIES = [
 ];
 
 const COMPANY_LINKS = [
-  { label: "About Us",       to: "/" },
-  { label: "Careers",        to: "/" },
-  { label: "Press",          to: "/" },
-  { label: "Blog",           to: "/" },
-  { label: "Privacy Policy", to: "/" },
-  { label: "Terms of Use",   to: "/" },
+  { label: "About Us",       to: "/about"                    },
+  { label: "Careers",        to: "/careers"                  },
+  { label: "Press",          to: "/press"                    },
+  { label: "Blog",           to: "/blog"                     },
+  { label: "Contact Us",     to: "/contact"                  },
+  { label: "Privacy Policy", to: "/legal?tab=privacy"        },
+  { label: "Terms of Use",   to: "/legal?tab=terms"          },
 ];
 
 const LEGAL_LINKS = [
-  { label: "Privacy Policy",    to: "/" },
-  { label: "Terms of Service",  to: "/" },
-  { label: "Cookie Policy",     to: "/" },
-  { label: "Disclaimer",        to: "/" },
+  { label: "Privacy Policy",    to: "/legal?tab=privacy" },
+  { label: "Terms of Service",  to: "/legal?tab=terms"   },
+  { label: "Cookie Policy",     to: "/legal?tab=privacy" },
+  { label: "Disclaimer",        to: "/legal?tab=terms"   },
 ];
 
 // ─── SVG social icons ─────────────────────────────────────────────────────────

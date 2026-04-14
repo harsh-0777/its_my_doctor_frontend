@@ -18,6 +18,8 @@ export * as doctorAPI from "./doctor";
 export * as appointmentAPI from "./appointment";
 export * as patientAPI from "./patient";
 
+export * as contactAPI from "./contact";
+
 // ─── Add new domains below as the app grows ───────────────────────────────────
 // export * as pharmacyAPI from "./pharmacy";
 // export * as reportAPI   from "./report";

@@ -30,3 +30,9 @@ export const PATIENT = {
   UPDATE:    (id) => `/patients/${id}`,
   DELETE:    (id) => `/patients/${id}`,
 };
+
+export const CONTACT = {
+  SUBMIT:            "/contact",
+  GET_ALL:           "/contact",
+  UPDATE_STATUS: (id) => `/contact/${id}/status`,
+};
