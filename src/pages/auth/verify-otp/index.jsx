@@ -124,9 +124,9 @@ const VerifyOTPPage = () => {
 
     try {
       const res = await authAPI.verifyOTP({ userId, otp: otpString });
-      const { accessToken, refreshToken, user } = res.data;
+      const { accessToken, refreshToken, user, accessibleTabs } = res.data;
 
-      dispatch(setCredentials({ accessToken, refreshToken, user }));
+      dispatch(setCredentials({ accessToken, refreshToken, user, accessibleTabs }));
       setSuccess("Verified! Redirecting…");
 
       setTimeout(() => navigate("/", { replace: true }), 1000);
